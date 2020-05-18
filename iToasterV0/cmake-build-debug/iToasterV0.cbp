@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="iToasterV0"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Platform\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iToasterV0">
+				<Option output="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/iToasterV0.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/maciejzajecki/Documents/Arduino/libraries/LiquidMenu-1.5.1/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/utility"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include-fixed"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 iToasterV0"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iToasterV0/fast">
+				<Option output="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/iToasterV0.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/maciejzajecki/Documents/Arduino/libraries/LiquidMenu-1.5.1/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/utility"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include-fixed"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 iToasterV0/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leonardo_LiquidCrystal">
+				<Option output="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/libleonardo_LiquidCrystal.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/maciejzajecki/Documents/Arduino/libraries/LiquidMenu-1.5.1/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/utility"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include-fixed"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 leonardo_LiquidCrystal"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leonardo_LiquidCrystal/fast">
+				<Option output="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/libleonardo_LiquidCrystal.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/maciejzajecki/Documents/Arduino/libraries/LiquidMenu-1.5.1/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/utility"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include-fixed"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 leonardo_LiquidCrystal/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leonardo_CORE">
+				<Option output="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/libleonardo_CORE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/maciejzajecki/Documents/Arduino/libraries/LiquidMenu-1.5.1/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/utility"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include-fixed"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 leonardo_CORE"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leonardo_CORE/fast">
+				<Option output="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/libleonardo_CORE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/maciejzajecki/Documents/Arduino/libraries/LiquidMenu-1.5.1/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/utility"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include-fixed"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 leonardo_CORE/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iToasterV0-size">
+				<Option working_dir="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 iToasterV0-size"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Arduino.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Client.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial_private.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Printable.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Server.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBAPI.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBDesc.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Udp.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WCharacter.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/binary.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_private.h">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c">
+			<Option target="leonardo_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp">
+			<Option target="leonardo_LiquidCrystal"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.h">
+			<Option target="leonardo_LiquidCrystal"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/iToasterV0_i_toaster_v0.ino.cpp">
+			<Option target="iToasterV0"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/iToasterV0_i_toaster_v0.ino.cpp.rule">
+			<Option target="iToasterV0"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Desktop/iToasterV0/i_toaster_v0.ino">
+			<Option target="iToasterV0"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Desktop/iToasterV0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Desktop/iToasterV0/cmake/ArduinoToolchain.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Desktop/iToasterV0/cmake/Platform/Arduino.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

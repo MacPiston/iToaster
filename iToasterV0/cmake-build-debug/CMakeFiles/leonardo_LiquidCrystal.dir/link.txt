@@ -1,0 +1,2 @@
+/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-ar qc libleonardo_LiquidCrystal.a  CMakeFiles/leonardo_LiquidCrystal.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp.obj
+/Applications/Programowanie/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-ranlib libleonardo_LiquidCrystal.a

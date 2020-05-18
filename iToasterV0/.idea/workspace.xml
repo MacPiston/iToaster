@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="iToasterV0" targetName="leonardo_LiquidCrystal" />
+      <config projectName="iToasterV0" targetName="iToasterV0-size" />
+      <config projectName="iToasterV0" targetName="leonardo_CORE" />
+      <config projectName="iToasterV0" targetName="iToasterV0" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="974ee8ef-7c63-4c5e-a2f1-1a9aa062f1f8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1c4dvX0gA7FO2vEaZgF4ZQjIpAx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+  </component>
+  <component name="RunManager" selected="CMake Application.iToasterV0">
+    <configuration name="iToasterV0-size" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="iToasterV0" TARGET_NAME="iToasterV0-size" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iToasterV0" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="iToasterV0" TARGET_NAME="iToasterV0" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="iToasterV0" RUN_TARGET_NAME="iToasterV0">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leonardo_CORE" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="iToasterV0" TARGET_NAME="leonardo_CORE" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leonardo_LiquidCrystal" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="iToasterV0" TARGET_NAME="leonardo_LiquidCrystal" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.iToasterV0" />
+      <item itemvalue="CMake Application.iToasterV0-size" />
+      <item itemvalue="CMake Application.leonardo_CORE" />
+      <item itemvalue="CMake Application.leonardo_LiquidCrystal" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="974ee8ef-7c63-4c5e-a2f1-1a9aa062f1f8" name="Default Changelist" comment="" />
+      <created>1589792030340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589792030340</updated>
+      <workItem from="1589792034755" duration="7000" />
+      <workItem from="1589792085766" duration="226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="588" y="328" key="ArduinoSupport.ProjectBuildSettingsDialog" timestamp="1589792157331">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="588" y="328" key="ArduinoSupport.ProjectBuildSettingsDialog/0.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1589792157331" />
+  </component>
+</project>

@@ -1,0 +1,6 @@
+/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/CMakeFiles/iToasterV0.dir
+/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/CMakeFiles/leonardo_LiquidCrystal.dir
+/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/CMakeFiles/leonardo_CORE.dir
+/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maciejzajecki/Desktop/iToasterV0/cmake-build-debug/CMakeFiles/iToasterV0-size.dir
