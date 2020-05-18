@@ -1,0 +1,5 @@
+/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir
+/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-debug/CMakeFiles/Debug.dir
+/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-debug/CMakeFiles/Production.dir
