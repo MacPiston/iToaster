@@ -46,8 +46,30 @@
 				<Compiler>
 					<Add directory="/Users/maciejzajecki/Documents/GitHub/iToaster/include"/>
 					<Add directory="/Users/maciejzajecki/Documents/GitHub/iToaster/src"/>
+					<Add directory="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src"/>
 					<Add directory="/Users/maciejzajecki/.platformio/packages/framework-arduino-avr/cores/arduino"/>
 					<Add directory="/Users/maciejzajecki/.platformio/packages/framework-arduino-avr/variants/leonardo"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src"/>
 					<Add directory="/Users/maciejzajecki/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
 					<Add directory="/Users/maciejzajecki/.platformio/packages/framework-arduino-avr/libraries/HID/src"/>
 					<Add directory="/Users/maciejzajecki/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
@@ -80,8 +102,30 @@
 				<Compiler>
 					<Add directory="/Users/maciejzajecki/Documents/GitHub/iToaster/include"/>
 					<Add directory="/Users/maciejzajecki/Documents/GitHub/iToaster/src"/>
+					<Add directory="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src"/>
 					<Add directory="/Users/maciejzajecki/.platformio/packages/framework-arduino-avr/cores/arduino"/>
 					<Add directory="/Users/maciejzajecki/.platformio/packages/framework-arduino-avr/variants/leonardo"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src"/>
+					<Add directory="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src"/>
 					<Add directory="/Users/maciejzajecki/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
 					<Add directory="/Users/maciejzajecki/.platformio/packages/framework-arduino-avr/libraries/HID/src"/>
 					<Add directory="/Users/maciejzajecki/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
@@ -126,7 +170,3058 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/src/main.c">
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/.keep">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/.github/ISSUE_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/.travis.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_Circuit_Playground.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/CONTRIBUTING.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/CircuitPlaygroundFirmata/CircuitPlaygroundFirmata.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/CircuitPlaygroundFirmata_Express_CodeOrg/.cplayClassic.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/CircuitPlaygroundFirmata_Express_CodeOrg/CircuitPlaygroundFirmata_Express_CodeOrg.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/FidgetSpinner/FidgetSpinner.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/FidgetSpinner/FidgetSpinner.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/FidgetSpinner/PeakDetector.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_Accelerometer/Hello_Accelerometer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_Blink/Hello_Blink.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_Buttons/Hello_Buttons.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_LightSensor/Hello_LightSensor.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_NeoPixels/Hello_NeoPixels.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_SlideSwitch/Hello_SlideSwitch.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_SoundSensor/Hello_SoundSensor.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_Speaker/Hello_Speaker.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_Temperature/Hello_Temperature.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Infrared_Demos/Infrared_NeoPixel/.cplayClassic.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Infrared_Demos/Infrared_NeoPixel/Infrared_NeoPixel.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Infrared_Demos/Infrared_NeoPixel/adafruit_mini_codes.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Infrared_Demos/Infrared_Read/.cplayClassic.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Infrared_Demos/Infrared_Read/Infrared_Read.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Infrared_Demos/Infrared_Record/.cplayClassic.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Infrared_Demos/Infrared_Record/Infrared_Record.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Infrared_Demos/Infrared_Send/.cplayClassic.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Infrared_Demos/Infrared_Send/Infrared_Send.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Infrared_Demos/Infrared_Testpattern/.cplayClassic.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Infrared_Demos/Infrared_Testpattern/Infrared_Testpattern.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Microphone_Demos/Birthday_Candles/Birthday_Candles.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Microphone_Demos/mic_FFT_classic/.cplayExpress.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Microphone_Demos/mic_FFT_classic/mic_FFT_classic.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Microphone_Demos/mic_FFT_express/.cplayClassic.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Microphone_Demos/mic_FFT_express/mic_FFT_express.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Microphone_Demos/pretty_meter/pretty_meter.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Microphone_Demos/soundPressureLevel/soundPressureLevel.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Microphone_Demos/vu_meter/vu_meter.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/ScratchSensorBoard/ScratchSensorBoard.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Speech_Demos/Talk_UK_Acorn/Talk_UK_Acorn.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Speech_Demos/Talk_US_Clock/Talk_US_Clock.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Speech_Demos/Talk_US_Large/Talk_US_Large.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Speech_Demos/Talk_US_Male/Talk_US_Male.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/Speech_Demos/Talk_US_TI99/Talk_US_TI99.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/accelTap/accelTap.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/accel_mouse/accel_mouse.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/analog_sensors/analog_sensors.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/color_sense/color_sense.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/comm_badge/coin.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/comm_badge/comm_badge.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/comm_badge/trek.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/demo/demo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/mega_demo/.cplayExpress.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/mega_demo/CapTouchDemo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/mega_demo/Demo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/mega_demo/RainbowCycleDemo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/mega_demo/SensorDemo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/mega_demo/TiltDemo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/mega_demo/VUMeterDemo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/mega_demo/mega_demo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/tachometer/tachometer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/examples/tachometer_led_display/tachometer_led_display.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Sensor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Boards.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibCPE.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibCombo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibGlobals.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLib_COPYRIGHT.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLib_HashRaw.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLib_P01_NEC.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLib_P02_Sony.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLib_P03_RC5.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLib_P04_RC6.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLib_P05_Panasonic_Old.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLib_P06_JVC.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLib_P07_NECx.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLib_P08_Samsung36.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLib_P09_GICable.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLib_P10_DirecTV.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLib_P11_RCMM.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLib_P12_CYKM.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLib_P99_Additional.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLib_readme.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/ffft.S">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/Bridge/Bridge.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/ConsoleAsciiTable/ConsoleAsciiTable.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/ConsolePixel/ConsolePixel.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/ConsoleRead/ConsoleRead.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/Datalogger/Datalogger.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/FileWriteScript/FileWriteScript.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/HttpClient/HttpClient.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/HttpClientConsole/HttpClientConsole.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/MailboxReadMessage/MailboxReadMessage.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/Process/Process.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/RemoteDueBlink/RemoteDueBlink.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/ShellCommands/ShellCommands.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/TemperatureWebPanel/TemperatureWebPanel.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/TemperatureWebPanel/www/index.html">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/TemperatureWebPanel/www/zepto.min.js">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/TimeCheck/TimeCheck.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/WiFiStatus/WiFiStatus.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/YunFirstConfig/YunFirstConfig.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/examples/YunSerialTerminal/YunSerialTerminal.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/YunClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/YunServer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraAccelerometer/EsploraAccelerometer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraBlink/EsploraBlink.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraJoystickMouse/EsploraJoystickMouse.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraLedShow/EsploraLedShow.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraLedShow2/EsploraLedShow2.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraLightCalibrator/EsploraLightCalibrator.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraMusic/EsploraMusic.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraSoundSensor/EsploraSoundSensor.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraTemperatureSensor/EsploraTemperatureSensor.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/examples/Experts/EsploraKart/EsploraKart.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/examples/Experts/EsploraPong/EsploraPong.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/examples/Experts/EsploraRemote/EsploraRemote.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/examples/Experts/EsploraTable/EsploraTable.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/examples/AdvancedChatServer/AdvancedChatServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/examples/BarometricPressureWebServer/BarometricPressureWebServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/examples/ChatServer/ChatServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/examples/DhcpAddressPrinter/DhcpAddressPrinter.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/examples/DhcpChatServer/DhcpChatServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/examples/LinkStatus/LinkStatus.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/examples/TelnetClient/TelnetClient.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/examples/UDPSendReceiveString/UDPSendReceiveString.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/examples/UdpNtpClient/UdpNtpClient.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/examples/WebClient/WebClient.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/examples/WebClientRepeating/WebClientRepeating.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/examples/WebServer/WebServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Boards.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataConstants.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataDefines.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/AllInputsFirmata/AllInputsFirmata.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/AnalogFirmata/AnalogFirmata.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/EchoString/EchoString.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/OldStandardFirmata/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/OldStandardFirmata/OldStandardFirmata.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/ServoFirmata/ServoFirmata.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/SimpleAnalogFirmata/SimpleAnalogFirmata.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/SimpleDigitalFirmata/SimpleDigitalFirmata.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmata/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmata/StandardFirmata.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataBLE/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataBLE/StandardFirmataBLE.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataBLE/bleConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataChipKIT/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataChipKIT/StandardFirmataChipKIT.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataEthernet/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataEthernet/StandardFirmataEthernet.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataEthernet/ethernetConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataPlus/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataPlus/StandardFirmataPlus.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataWiFi/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataWiFi/StandardFirmataWiFi.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataWiFi/wifiConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/extras/revisions.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/readme.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/release.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/test/firmata_test/firmata_test.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/test/readme.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/FirmataFeature.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiClientStream.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiServerStream.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/firmataDebug.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/examples/GsmWebClient/GsmWebClient.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/examples/GsmWebServer/GsmWebServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/examples/MakeVoiceCall/MakeVoiceCall.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/examples/ReceiveSMS/ReceiveSMS.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/examples/ReceiveVoiceCall/ReceiveVoiceCall.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/examples/SendSMS/SendSMS.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/examples/Tools/BandManagement/BandManagement.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/examples/Tools/GsmScanNetworks/GsmScanNetworks.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/examples/Tools/PinManagement/PinManagement.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/examples/Tools/TestGPRS/TestGPRS.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/examples/Tools/TestModem/TestModem.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/examples/Tools/TestWebServer/TestWebServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/extras/License.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3IO.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/Autoscroll/Autoscroll.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/Blink/Blink.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/Cursor/Cursor.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/CustomCharacter/CustomCharacter.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/Display/Display.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/HelloWorld/HelloWorld.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/Scroll/Scroll.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/SerialDisplay/SerialDisplay.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/TextDirection/TextDirection.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/setCursor/setCursor.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/extras/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/RobotIRremote.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/RobotIRremoteInt.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/RobotIRremoteTools.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R01_Logo/R01_Logo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R02_Line_Follow/R02_Line_Follow.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R03_Disco_Bot/R03_Disco_Bot.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R04_Compass/R04_Compass.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R05_Inputs/R05_Inputs.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R06_Wheel_Calibration/R06_Wheel_Calibration.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R06_Wheel_Calibration/scripts_library.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R07_Runaway_Robot/R07_Runaway_Robot.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R08_Remote_Control/R08_Remote_Control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R09_Picture_Browser/R09_Picture_Browser.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R10_Rescue/R10_Rescue.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R11_Hello_User/R11_Hello_User.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/AllIOPorts/AllIOPorts.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/Beep/Beep.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/CleanEEPROM/CleanEEPROM.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/Compass/Compass.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/IRArray/IRArray.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/LCDDebugPrint/LCDDebugPrint.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/LCDPrint/LCDPrint.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/LCDWriteText/LCDWriteText.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/LineFollowWithPause/LineFollowWithPause.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/Melody/Melody.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/MotorTest/MotorTest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/SpeedByPotentiometer/SpeedByPotentiometer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/TurnTest/TurnTest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/keyboardTest/keyboardTest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16Config.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16mainpage.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/FatStructs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdInfo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/scripts_Hello_User.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/examples/Robot_IR_Array_Test/Robot_IR_Array_Test.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/examples/Robot_Motor_Core/Robot_Motor_Core.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/LineFollow.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/.travis.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/examples/CardInfo/CardInfo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/examples/Datalogger/Datalogger.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/examples/DumpFile/DumpFile.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/examples/Files/Files.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/examples/NonBlockingWrite/NonBlockingWrite.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/examples/ReadWrite/ReadWrite.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/examples/listfiles/listfiles.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/extras/codespell-ignore-words-list.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/README.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/FatStructs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2PinMap.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFat.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFatUtil.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFatmainpage.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdInfo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/examples/Knob/Knob.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/examples/Sweep/Sweep.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/Servo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/ServoTimers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/ServoTimers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/ServoTimers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/ServoTimers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/ServoTimers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/ServoTimers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/ServoTimers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/examples/inputOutput/inputOutput.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/examples/spacebrewBoolean/spacebrewBoolean.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/examples/spacebrewRange/spacebrewRange.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/examples/spacebrewString/spacebrewString.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/examples/MotorKnob/MotorKnob.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/examples/stepper_oneRevolution/stepper_oneRevolution.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/examples/stepper_oneStepAtATime/stepper_oneStepAtATime.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/examples/stepper_speedControl/stepper_speedControl.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/examples/Arduino/TFTBitmapLogo/TFTBitmapLogo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/examples/Arduino/TFTBitmapLogo/arduino.bmp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/examples/Arduino/TFTColorPicker/TFTColorPicker.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/examples/Arduino/TFTDisplayText/TFTDisplayText.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/examples/Arduino/TFTEtchASketch/TFTEtchASketch.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/examples/Arduino/TFTGraph/TFTGraph.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/examples/Arduino/TFTPong/TFTPong.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/examples/Esplora/EsploraTFTBitmapLogo/EsploraTFTBitmapLogo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/examples/Esplora/EsploraTFTBitmapLogo/arduino.bmp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/examples/Esplora/EsploraTFTColorPicker/EsploraTFTColorPicker.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/examples/Esplora/EsploraTFTEtchASketch/EsploraTFTEtchASketch.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/examples/Esplora/EsploraTFTGraph/EsploraTFTGraph.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/examples/Esplora/EsploraTFTHorizon/EsploraTFTHorizon.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/examples/Esplora/EsploraTFTPong/EsploraTFTPong.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/examples/Esplora/EsploraTFTTemp/EsploraTFTTemp.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/extras/Adafruit-README.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/extras/Adafruit-license.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/extras/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/PImage.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/GetYahooWeatherReport/GetYahooWeatherReport.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/GetYahooWeatherReport/TembooAccount.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/ReadATweet/ReadATweet.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/ReadATweet/TembooAccount.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/SendATweet/SendATweet.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/SendATweet/TembooAccount.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/SendAnEmail/SendAnEmail.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/SendAnEmail/TembooAccount.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/SendAnSMS/SendAnSMS.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/SendAnSMS/TembooAccount.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/SendDataToGoogleSpreadsheet/SendDataToGoogleSpreadsheet.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/SendDataToGoogleSpreadsheet/TembooAccount.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/TembooDeviceConfig/TembooDeviceConfig.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/ToxicFacilitiesSearch/TembooAccount.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/ToxicFacilitiesSearch/ToxicFacilitiesSearch.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/UpdateFacebookStatus/TembooAccount.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/UpdateFacebookStatus/UpdateFacebookStatus.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/UploadToDropbox/TembooAccount.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/UploadToDropbox/UploadToDropbox.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/examples/YunShield/TembooDeviceConfig/TembooDeviceConfig.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooYunShield.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ArduinoTimer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/FP.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnect.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTLogging.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPublish.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribe.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribe.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/StackTrace.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPIPStack.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTIPStack.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooTags.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooTimer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/examples/ConnectNoEncryption/ConnectNoEncryption.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/examples/ConnectWithWEP/ConnectWithWEP.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/examples/ConnectWithWPA/ConnectWithWPA.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/examples/ScanNetworks/ScanNetworks.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/examples/SimpleWebServerWiFi/SimpleWebServerWiFi.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/examples/WiFiChatServer/WiFiChatServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/examples/WiFiUdpNtpClient/WiFiUdpNtpClient.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/examples/WiFiWebClient/WiFiWebClient.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/examples/WiFiWebClientRepeating/WiFiWebClientRepeating.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/examples/WiFiWebServer/WiFiWebServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/binary/wifiHD.elf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/binary/wifiHD.hex">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/binary/wifiHD_2_1.elf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/binary/wifi_dnld.elf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/binary/wifi_dnld.hex">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/binary/wifi_dnld_2_1.elf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/scripts/ArduinoWifiShield_upgrade.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/.cproject">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/.project">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/Release/wifiHD.elf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/Release/wifiHD.hex">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/CONFIG/conf_access.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/CONFIG/conf_at45dbx.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/CONFIG/conf_ebi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/CONFIG/conf_sd_mmc_spi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/ASM/trampoline.x">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/arduino.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/evk1105.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/board.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/board.h.my">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/WIFI/HD/v2.7.0/UCR1/GCC/lib_ucr1_hd_sdio_v2.7.0.a">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/WIFI/HD/v2.7.0/UCR1/GCC/lib_ucr1_hd_spi_v2.7.0.a">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/WIFI/HD/v2.7.0/UCR1/GCC/lib_ucr1_hd_wl_sta_intwpa_v2.7.0.a">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/WIFI/HD/v2.7.0/UCR2/GCC/lib_ucr2_hd_sdio_v2.7.0.a">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/WIFI/HD/v2.7.0/UCR2/GCC/lib_ucr2_hd_spi_v2.7.0.a">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/WIFI/HD/v2.7.0/UCR2/GCC/lib_ucr2_hd_wl_sta_intwpa_v2.7.0.a">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/WIFI/HD/v2.7.0/revision.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/WIFI/HD/wl_api.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/WIFI/HD/wl_fw.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/WIFI/HD/wl_os.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/WIFI/HD/wl_sdio.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/WIFI/HD/wl_spi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/WIFI/HD/wlap_api.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/CPU/CYCLE_COUNTER/cycle_counter.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/exception.x">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/ipv4/lwip/autoip.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/ipv4/lwip/icmp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/ipv4/lwip/igmp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/ipv4/lwip/inet.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/ipv4/lwip/inet_chksum.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/ipv4/lwip/ip.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/ipv4/lwip/ip_addr.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/ipv4/lwip/ip_frag.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/api.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/api_msg.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/arch.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/debug.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/def.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/dhcp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/dns.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/err.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/init.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/mem.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/memp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/memp_std.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/netbuf.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/netdb.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/netif.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/netifapi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/opt.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/pbuf.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/raw.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/sio.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/snmp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/snmp_asn1.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/snmp_msg.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/snmp_structs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/sockets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/stats.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/sys.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/tcp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/tcpip.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/lwip/udp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/netif/etharp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/netif/loopif.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/netif/ppp_oe.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/include/netif/slipif.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/include/arch/cc.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/include/arch/perf.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/include/lwipopts.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/include/netif/wlif.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/readme.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/LIBS/NEWLIB_ADDONS/INCLUDE/nlao_cpu.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/LIBS/NEWLIB_ADDONS/INCLUDE/nlao_exceptions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/LIBS/NEWLIB_ADDONS/INCLUDE/nlao_interrupts.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/LIBS/NEWLIB_ADDONS/INCLUDE/nlao_io.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/LIBS/NEWLIB_ADDONS/INCLUDE/nlao_usart.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/LIBS/NEWLIB_ADDONS/libnewlib_addons-at32ucr2-speed_opt.a">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/LINKER_SCRIPTS/AT32UC3A/0512/GCC/link_uc3a0512.lds">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/LINKER_SCRIPTS/AT32UC3A/1256/GCC/link_uc3a1256.lds">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/PREPROCESSOR/mrepeat.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/PREPROCESSOR/preprocessor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/PREPROCESSOR/stringz.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/PREPROCESSOR/tpaste.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/STARTUP_FILES/GCC/crt0.x">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/compiler.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/conf_isp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/parts.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/debug.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/license.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwipopts.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/top_defs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/trace.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wifi_spi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_definitions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/wifiHD.cproj">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/.cproject">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/.project">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/Release/wifi_dnld.elf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/CONFIG/conf_access.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/CONFIG/conf_at45dbx.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/Doc/SPB104 product brief.pdf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/Doc/gettingstarted.pdf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/ASM/trampoline.x">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/arduino.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/evk1105.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/board.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/board.h.ori">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/exception.x">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/LIBS/NEWLIB_ADDONS/INCLUDE/nlao_cpu.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/LIBS/NEWLIB_ADDONS/INCLUDE/nlao_exceptions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/LIBS/NEWLIB_ADDONS/INCLUDE/nlao_interrupts.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/LIBS/NEWLIB_ADDONS/INCLUDE/nlao_io.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/LIBS/NEWLIB_ADDONS/INCLUDE/nlao_usart.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/LIBS/NEWLIB_ADDONS/libnewlib_addons-at32ucr2-speed_opt.a">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/LINKER_SCRIPTS/AT32UC3A/0512/GCC/link_uc3a0512.lds">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/LINKER_SCRIPTS/AT32UC3A/1256/GCC/link_uc3a1256.lds">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/PREPROCESSOR/mrepeat.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/PREPROCESSOR/preprocessor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/PREPROCESSOR/stringz.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/PREPROCESSOR/tpaste.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/STARTUP_FILES/GCC/crt0.x">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/compiler.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/conf_isp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/parts.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/license.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/wl_fw.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/wifi_dnld.cproj">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifishield.atsln">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/debug.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_spi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wl_definitions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wl_types.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/.DS_Store">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/.DS_Store">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/.gitattributes">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/.github/CODE_OF_CONDUCT.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/.github/CONTRIBUTING.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/.github/ISSUE_TEMPLATE/bug_report.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/.github/ISSUE_TEMPLATE/feature_request.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/.nojekyll">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/.travis.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidLine.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidMenu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidMenu.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidMenu_config.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidMenu_debug.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidScreen.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidSystem.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/glyphs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/recognizeType.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/src/main.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
 		<Unit filename="/Users/maciejzajecki/Documents/GitHub/iToaster/CMakeLists.txt">

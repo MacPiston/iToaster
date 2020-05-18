@@ -57,30 +57,4050 @@ include CMakeFiles/Z_DUMMY_TARGET.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/main.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/src/main.c.obj: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/main.c.obj"
-	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/src/main.c.obj   -c /Users/maciejzajecki/Documents/GitHub/iToaster/src/main.c
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidLine.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidLine.cpp.obj: ../lib/LiquidMenu/src/LiquidLine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidLine.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidLine.cpp.obj -c /Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidLine.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/src/main.c.i"
-	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maciejzajecki/Documents/GitHub/iToaster/src/main.c > CMakeFiles/Z_DUMMY_TARGET.dir/src/main.c.i
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidLine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidLine.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidLine.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidLine.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/main.c.s"
-	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maciejzajecki/Documents/GitHub/iToaster/src/main.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/main.c.s
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidLine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidLine.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidLine.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidLine.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidMenu.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidMenu.cpp.obj: ../lib/LiquidMenu/src/LiquidMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidMenu.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidMenu.cpp.obj -c /Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidMenu.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidMenu.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidMenu.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidMenu.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidMenu.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidMenu.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidMenu.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidScreen.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidScreen.cpp.obj: ../lib/LiquidMenu/src/LiquidScreen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidScreen.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidScreen.cpp.obj -c /Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidScreen.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidScreen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidScreen.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidScreen.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidScreen.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidScreen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidScreen.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidScreen.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidScreen.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidSystem.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidSystem.cpp.obj: ../lib/LiquidMenu/src/LiquidSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidSystem.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidSystem.cpp.obj -c /Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidSystem.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidSystem.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidSystem.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidSystem.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidSystem.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/LiquidSystem.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidSystem.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/recognizeType.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/recognizeType.cpp.obj: ../lib/LiquidMenu/src/recognizeType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/recognizeType.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/recognizeType.cpp.obj -c /Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/recognizeType.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/recognizeType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/recognizeType.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/recognizeType.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/recognizeType.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/recognizeType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/recognizeType.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maciejzajecki/Documents/GitHub/iToaster/lib/LiquidMenu/src/recognizeType.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/recognizeType.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj -c /Users/maciejzajecki/Documents/GitHub/iToaster/src/main.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maciejzajecki/Documents/GitHub/iToaster/src/main.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maciejzajecki/Documents/GitHub/iToaster/src/main.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c.obj   -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp.obj: /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp.obj"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp.obj -c /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp.i"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp.s"
+	/Users/maciejzajecki/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp.s
 
 # Object files for target Z_DUMMY_TARGET
 Z_DUMMY_TARGET_OBJECTS = \
-"CMakeFiles/Z_DUMMY_TARGET.dir/src/main.c.obj"
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidLine.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidMenu.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidScreen.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidSystem.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/recognizeType.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp.obj"
 
 # External object files for target Z_DUMMY_TARGET
 Z_DUMMY_TARGET_EXTERNAL_OBJECTS =
 
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/main.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidLine.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidMenu.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidScreen.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/LiquidSystem.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidMenu/src/recognizeType.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/Adafruit_ZeroPDM.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibHardware.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSAMD21.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground/utility/talkie.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Bridge.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeClient.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeSSLClient.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeServer.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/BridgeUdp.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Console.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/FileIO.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/HttpClient.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Mailbox.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Bridge/src/Process.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Esplora/src/Esplora.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dhcp.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Dns.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/Ethernet.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetClient.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetServer.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/EthernetUdp.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/socket.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Ethernet/src/utility/w5100.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/Firmata.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataMarshaller.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/FirmataParser.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BLEStream.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/BluefruitLE_SPI_Stream.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetClientStream.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/EthernetServerStream.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/SerialFirmata.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Firmata/utility/WiFiStream.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3CircularBuffer.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileAccessProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileCellManagement.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileClientService.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileMockupProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileSMSProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileServerService.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3MobileVoiceProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SMSService.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3SoftSerial.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/GSM/src/GSM3VoiceCallService.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Keyboard/src/Keyboard.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/LiquidCrystal/src/LiquidCrystal.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Mouse/src/Mouse.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremote.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/RobotIRremote/src/IRremoteTools.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/ArduinoRobot.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Arduino_LCD.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Compass.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EEPROM_I2C.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/EasyTransfer2.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Fat16.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Melody.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Motors.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Multiplexer.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/RobotSdCard.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SdCard.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Sensors.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/Squawk.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/SquawkSD.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/communication.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/glcdfont.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/helper.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/information.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/keyboard.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/lcd.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/RobotTextManager.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/EasyTransfer2.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/Multiplexer.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Robot_Motor/src/lineFollow.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/File.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/SD.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/Sd2Card.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdFile.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SD/src/utility/SdVolume.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/SpacebrewYun/src/SpacebrewYun.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Stepper/src/Stepper.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/TFT.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_GFX.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/Adafruit_ST7735.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/TFT/src/utility/glcdfont.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/Temboo.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooMonitoring.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/TembooSSL.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/BaseFormatter.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDevice.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoDeviceFormatter.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInput.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpression.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionFormatter.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputExpressionSet.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoInputSet.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutput.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoOutputSet.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPreset.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInput.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputFormatter.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/ChoreoSensorInputSet.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMessageLayer.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapMsg.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/CoapRRLayer.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/DataFormatter.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectClient.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTConnectServer.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTDeserializePublish.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTFormat.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTPacket.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSerializePublish.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeClient.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTSubscribeServer.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooCoAPSession.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooDS18B20.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGPIO.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooGlobal.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooMQTTSession.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooOneWire.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooSession.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/TembooWebSocketRequestHandles.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbhmac.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/Temboo/src/utility/tmbmd5.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_spi.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_tcp.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ard_utils.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/avr32_spi.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/board_init.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/cmd_wl.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/console.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/lwip_setup.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/main.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/nvram.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/owl_os.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/ping.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/timer.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/util.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifiHD/src/wl_cm.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/clocks.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/extras/wifi_dnld/src/startup.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFi.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiClient.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiServer.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/WiFiUdp.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/server_drv.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/spi_drv.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Applications/Programowanie/Arduino.app/Contents/Java/libraries/WiFi/src/utility/wifi_drv.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/build.make
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Z_DUMMY_TARGET"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Linking CXX executable Z_DUMMY_TARGET"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Z_DUMMY_TARGET.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
