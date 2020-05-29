@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="iToaster" targetName="Production" />
+      <config projectName="iToaster" targetName="Debug" />
+      <config projectName="iToaster" targetName="Z_DUMMY_TARGET" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="bluepill_f103c8" CONFIG_NAME="bluepill_f103c8" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="940aaa7f-0925-443f-8250-e74733e543f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/include/lcdMenu.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lcdMenu.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/leonardo/.sconsign38.db.dblite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/leonardo/firmware.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/leonardo/firmware.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/project.checksum" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/project.checksum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeListsPrivate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeListsPrivate.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/3.16.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/3.16.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Debug.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Debug.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Debug.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Debug.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Debug.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Debug.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Production.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Production.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Production.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Production.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Production.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Production.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Z_DUMMY_TARGET.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Z_DUMMY_TARGET.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Z_DUMMY_TARGET.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Z_DUMMY_TARGET.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Z_DUMMY_TARGET.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Z_DUMMY_TARGET.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Z_DUMMY_TARGET.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Z_DUMMY_TARGET.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Z_DUMMY_TARGET.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/Z_DUMMY_TARGET.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-leonardo/iToaster.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/baserecipe.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/readButton.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/recipemanager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/.github/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/.github/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/.nojekyll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/keywords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/library.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/src/LiquidLine.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/src/LiquidMenu.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/src/LiquidMenu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/src/LiquidMenu_config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/src/LiquidMenu_debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/src/LiquidScreen.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/src/LiquidSystem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/src/glyphs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiquidMenu/src/recognizeType.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformio.ini" beforeDir="false" afterPath="$PROJECT_DIR$/platformio.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:bluepill_f103c8" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cAvs45x8gG5QrCOc6Pb9rwOGa1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="PlatformIO.PlatformIO Upload">
+    <configuration name="Z_DUMMY_TARGET" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="iToaster" TARGET_NAME="Z_DUMMY_TARGET" CONFIG_NAME="bluepill_f103c8" RUN_TARGET_PROJECT_NAME="iToaster" RUN_TARGET_NAME="Z_DUMMY_TARGET">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlatformIO Debug" type="platformio" factoryName="PlatformIO Debug" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="iToaster" TARGET_NAME="Debug" CONFIG_NAME="bluepill_f103c8" RUN_TARGET_PROJECT_NAME="iToaster" RUN_TARGET_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlatformIO Upload" type="platformio" factoryName="PlatformIO Upload" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="iToaster" TARGET_NAME="Production" CONFIG_NAME="bluepill_f103c8" RUN_TARGET_PROJECT_NAME="iToaster" RUN_TARGET_NAME="Production">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Z_DUMMY_TARGET" />
+      <item itemvalue="PlatformIO.PlatformIO Debug" />
+      <item itemvalue="PlatformIO.PlatformIO Upload" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="940aaa7f-0925-443f-8250-e74733e543f0" name="Default Changelist" comment="" />
+      <created>1589984416350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589984416350</updated>
+      <workItem from="1589984419531" duration="1548000" />
+      <workItem from="1590162122799" duration="150000" />
+      <workItem from="1590503491465" duration="198000" />
+      <workItem from="1590577049284" duration="1687000" />
+      <workItem from="1590594991206" duration="865000" />
+      <workItem from="1590596261558" duration="421000" />
+      <workItem from="1590596729132" duration="96000" />
+      <workItem from="1590596857572" duration="170000" />
+      <workItem from="1590599770758" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1590597043095">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.0.bottom/0.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590503689004" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/294.-1057.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1590597043095" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/294.-1057.1920.1057/0.23.1680.983@0.23.1680.983" timestamp="1590596210678" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/294.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590595801931" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1590597043094">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.0.center/0.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590503689003" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/294.-1057.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1590597043094" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/294.-1057.1920.1057/0.23.1680.983@0.23.1680.983" timestamp="1590596210677" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/294.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590595801929" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1590597043093">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.0.left/0.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590503689003" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/294.-1057.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1590597043093" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/294.-1057.1920.1057/0.23.1680.983@0.23.1680.983" timestamp="1590596210677" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/294.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590595801929" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1590597043094">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.0.right/0.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590503689004" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/294.-1057.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1590597043094" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/294.-1057.1920.1057/0.23.1680.983@0.23.1680.983" timestamp="1590596210678" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/294.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590595801930" />
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1590503689006">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590503689006" />
+    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1590503689005">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.1.center/0.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590503689005" />
+    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1590503689005">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.1.left/0.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590503689005" />
+    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1590503689006">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.1.right/0.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590503689006" />
+    <state width="1638" height="364" key="GridCell.Tab.2.bottom" timestamp="1590503689008">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.2.bottom/0.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590503689008" />
+    <state width="1638" height="364" key="GridCell.Tab.2.center" timestamp="1590503689007">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.2.center/0.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590503689007" />
+    <state width="1638" height="364" key="GridCell.Tab.2.left" timestamp="1590503689007">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.2.left/0.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590503689007" />
+    <state width="1638" height="364" key="GridCell.Tab.2.right" timestamp="1590503689008">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.2.right/0.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590503689008" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1590577068212">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1590577068212" />
+  </component>
+</project>

@@ -1,4 +1,0 @@
-/Applications/Programowanie/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=leonardo -G "CodeBlocks - Unix Makefiles" /Users/maciejzajecki/Documents/GitHub/iToaster
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/maciejzajecki/Documents/GitHub/iToaster/cmake-build-leonardo
