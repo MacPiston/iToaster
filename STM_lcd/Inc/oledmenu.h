@@ -7,10 +7,10 @@
 
 void oledmenu_display_splash();
 
-void oledmenu_display_recipe(int recipe_index);
+void oledmenu_display_recipe(int recipe_index, int selectable);
 
-void oledmanu_display_times(int recipe_index); // You need to manually clear screen before calling
+void oledmanu_display_lvls(int line); // You need to manually clear&update screen
 
-void oledmenu_display_arrows(int line); // You need to manually clear screen before calling
+void oledmenu_display_arrows(int line); // You need to manually clear&update screen
 
 #endif //STM_LCD_OLEDMENU_H

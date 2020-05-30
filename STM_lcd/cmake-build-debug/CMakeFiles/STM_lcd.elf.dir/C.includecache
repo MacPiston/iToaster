@@ -172,6 +172,16 @@ stm32f1xx_hal_tim_ex.h
 stm32f1xx_hal_def.h
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
 
+../Inc/main.h
+stm32f1xx_hal.h
+../Inc/stm32f1xx_hal.h
+ssd1306_tests.h
+../Inc/ssd1306_tests.h
+ssd1306_fonts.h
+../Inc/ssd1306_fonts.h
+
+../Inc/oledmenu.h
+
 ../Inc/recipe.h
 
 ../Inc/ssd1306.h
@@ -202,6 +212,10 @@ ssd1306_fonts.h
 
 ../Inc/ssd1306_fonts.h
 stdint.h
+-
+
+../Inc/ssd1306_tests.h
+_ansi.h
 -
 
 ../Inc/stm32f1xx_hal_conf.h
@@ -272,11 +286,15 @@ stm32f1xx_hal_hcd.h
 stm32f1xx_hal_mmc.h
 ../Inc/stm32f1xx_hal_mmc.h
 
-/Users/maciejzajecki/Desktop/STM_lcd/Src/oledmenu.c
+/Users/maciejzajecki/Documents/GitHub/iToaster/STM_lcd/Src/main.c
+stdbool.h
+-
+main.h
+/Users/maciejzajecki/Documents/GitHub/iToaster/STM_lcd/Src/main.h
 ssd1306.h
-/Users/maciejzajecki/Desktop/STM_lcd/Src/ssd1306.h
+/Users/maciejzajecki/Documents/GitHub/iToaster/STM_lcd/Src/ssd1306.h
+oledmenu.h
+/Users/maciejzajecki/Documents/GitHub/iToaster/STM_lcd/Src/oledmenu.h
 recipe.h
-/Users/maciejzajecki/Desktop/STM_lcd/Src/recipe.h
-ssd1306_fonts.h
-/Users/maciejzajecki/Desktop/STM_lcd/Src/ssd1306_fonts.h
+/Users/maciejzajecki/Documents/GitHub/iToaster/STM_lcd/Src/recipe.h
 
