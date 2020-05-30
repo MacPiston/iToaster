@@ -7,10 +7,12 @@
 
 void oledmenu_display_splash();
 
-void oledmenu_display_recipe(int recipe_index, int selectable);
+void oledmenu_display_recipe(int recipe_index, int selected_lvl, int selected_lvl2); // recipe/time selection screen
 
-void oledmanu_display_lvls(int line); // You need to manually clear&update screen
+void oledmenu_display_lvls(int line, int selected_lvl); // You need to manually clear&update screen
 
 void oledmenu_display_arrows(int line); // You need to manually clear&update screen
+
+void oledmenu_display_confirm_screen(int recipe_index, int selected_lvl2); // baking confirmation screen
 
 #endif //STM_LCD_OLEDMENU_H
